@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "521789266315",
+    "firebase_url": "https://prjpab2-si6b-2226240027-default-rtdb.firebaseio.com",
+    "project_id": "prjpab2-si6b-2226240027",
+    "storage_bucket": "prjpab2-si6b-2226240027.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521789266315:android:a61980d361d053d1ba778e",
+        "android_client_info": {
+          "package_name": "com.example.tugas_nelsen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521789266315-phbu3a5uhe9vhgsisipbie5vpauasa6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrPUnC4fOtc8qMJWwy2-PxMlVzKOufvQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521789266315-phbu3a5uhe9vhgsisipbie5vpauasa6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

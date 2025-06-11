@@ -108,7 +108,7 @@ class _BiodataFormState extends State<BiodataForm> {
                 enabled: widget.initialData == null,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'NPM tidak boleh kosong';
+                    return 'NPM Wajib Di ISI';
                   }
                   return null;
                 },
@@ -117,12 +117,12 @@ class _BiodataFormState extends State<BiodataForm> {
               TextFormField(
                 controller: _namaController,
                 decoration: const InputDecoration(
-                  labelText: 'Nama',
+                  labelText: 'Nama Mahasiswa',
                   border: OutlineInputBorder(),
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Nama tidak boleh kosong';
+                    return 'Nama Wajib Di ISI';
                   }
                   return null;
                 },
@@ -137,7 +137,7 @@ class _BiodataFormState extends State<BiodataForm> {
                 maxLines: 3,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Visi tidak boleh kosong';
+                    return 'Visi Wajib Di ISI';
                   }
                   return null;
                 },

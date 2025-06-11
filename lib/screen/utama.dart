@@ -13,7 +13,7 @@ class BiodataList extends StatefulWidget {
 
 class _BiodataListState extends State<BiodataList> {
   final DatabaseReference _database =
-      FirebaseDatabase.instance.ref('mahasiswa');
+      FirebaseDatabase.instance.ref('mahasiswa UMDP');
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
 
